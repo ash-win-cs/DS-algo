@@ -14,4 +14,5 @@ rombus_pattern
 selectionSort
 zigzg_pattern 
 maxArray
-sumOfAllSubArrays		
+sumOfAllSubArrays
+longestArithematicSubarray
