@@ -54,7 +54,7 @@ sample : 10 7 4 6 8 10 11
 diff   :   -3-3 2 2 2   1
 so ans = 4
 */
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 
@@ -68,8 +68,7 @@ int main() {
     cin >>n;
     int a[n];
 
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 0; i < n; ++i) {
     	cin>>a[i];
     }
 
@@ -78,11 +77,10 @@ int main() {
     int j = 2;
     int curr = 2;
 
-    while(j<n){
-        if(pd == a[j] - a[j-1]){
+    while (j<n) {
+        if (pd == (a[j] - a[j-1])) {
             curr++;
-        }
-        else{
+        } else {
             pd = a[j] - a[j-1];
             curr = 2;
         }
